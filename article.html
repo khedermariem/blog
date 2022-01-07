@@ -3,35 +3,39 @@
 
 <head>
     <meta charset="utf-8" />
+    <link rel="stylesheet" href="./normalize.css"/>
+    <link rel="stylesheet" href="./article.css">
+
     <title>le monde d'intelligence artificiellle</title>
 
 
 </head>
 
 <body>
-    <header>
-        <img src="/image/technologie informatique.jpg" alt="logo" id="logoimg" />
+     <header id="mainHeader">
+        <img src="/image/possessed-photography-zbLW0FG8XU8-unsplash.jpg" alt="logo" id="logoimg" />
         <h1>The world of artificial intelligence</h1>
         <nav id="mainNav">
+            <h1 class="accessibility">main menu</h1>
+            <p class="accessibility"> <a href="#pageContent" title="to principal page"> Pass the menu</a></p>
             <ul>
-                <li><a href="/index.html">Welcome</a></li>
-                <li><a href="/galleries.html">Galleries</a></li>
-                <li><a href="/contact.html">Contact</a></li>
-                <li><a href="/about.html">A propos</a></li>
-                <li><a href="/article.html">Blog</a></li>
+                  <li><a href="/index.html" title="to the home page of the site 'The world of artificial intelligence'">Welcome</a></li>
+                <li><a href="/galleries.html" title="to the photo galleries of this site ">Galleries</a></li>
+                <li><a href="/contact.html" title="to the contact page of this site">Contact</a></li>
+                <li><a href="/about.html" title="Read more about this site and its owners, Mariem Kheder">A propos</a></li>
+                <li><a href="/article.html" title="visit our blog">Blog</a></li>
+
             </ul>
         </nav>
-
-
+        <button class="menuToggle"><img src="./image/menu.png" alt="menu"></button>
     </header>
-    <section id="page_content ">
-        <main id="left_col">
+    <section id="pageContent" class="blogListe blog">
+        <main id="left_col" class="alignLeft">
             <article>
-                <header>
+                 <header id="mainHeader">
                     <h1>Artificial intelligence: 193 countries adopt first AI ethics agreement (UNESCO)</h1>
                     <p> <strong> novembre 2021 |Développement durable (ODD)</strong> </p>
                 </header>
-
                 <p><img src="https://images.unsplash.com/photo-1580584126903-c17d41830450?q=80&w=1080&utm_source=unsplash_source&utm_medium=referral&utm_campaign=api-credit"
                         alt="image article1" id="img1">
                     <h1> AI is everywhere </h1>
@@ -107,7 +111,7 @@
             </article>
 
             <article>
-                <header>
+                 <header id="mainHeader">
                     <h1>Consciousness in humans, animals and artificial intelligence</h1>
                     <p> <strong> December 20, 2021 | Ruhr-University Bochum</strong>
 
@@ -150,7 +154,7 @@
                 <p><a href="/article2.html"> Lire La suite</a> </p>
             </article>
             <article>
-                <header>
+                 <header id="mainHeader">
                     <h1>Commentary: The Ethical Use of AI in the Security, Defense Industry</h1>
                     <p> <strong> 12/21/2021 | By Wayne Phelps</strong>
 

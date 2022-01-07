@@ -3,47 +3,55 @@
 
 <head>
     <meta charset="utf-8" />
+    <link rel="stylesheet" href="./normalize.css"/>
+    <link rel="stylesheet" href="./article.css">
     <title>The world of artificial intelligence</title>
 
 
 </head>
 
 <body>
-    <header>
-        <img src="/image/technologie informatique.jpg" alt="logo" id="logoimg" />
+    <header id="mainHeader">
+        <img src="/image/possessed-photography-zbLW0FG8XU8-unsplash.jpg" alt="logo" id="logoimg" />
         <h1>The world of artificial intelligence</h1>
         <nav id="mainNav">
+            <h1 class="accessibility">main menu</h1>
+            <p class="accessibility"> <a href="#pageContent" title="to principal page"> Pass the menu</a></p>    
             <ul>
-                <li><a href="/index.html">Welcome</a></li>
-                <li><a href="/galleries.html">Galleries</a></li>
-                <li><a href="/contact.html">Contact</a></li>
-                <li><a href="/about.html">A propos</a></li>
-                <li><a href="/article.html">Blog</a></li>
+                <li><a href="/index.html" title="to the home page of the site 'The world of artificial intelligence'">Welcome</a></li>
+                <li><a href="/galleries.html" title="to the photo galleries of this site ">Galleries</a></li>
+                <li><a href="/contact.html" title="to the contact page of this site">Contact</a></li>
+                <li><a href="/about.html" title="Read more about this site and its owners, Mariem Kheder">A propos</a></li>
+                <li><a href="/article.html" title="visit our blog">Blog</a></li>
             </ul>
         </nav>
 
 
     </header>
-    <main id="mainContent">
+    <section id="pageContent" class="contact">
+    <main id="mainContent" >
         <h1>Contact us</h1>
         <p>Please complete the following form to contact us. All fields of this form are required</p>
         <form id="formContact" action="thanks.html">
             <div>
                 <div>
                     <label for="fName">FirstName</label>
-                    <input type="text" name="fName" id="fName" required />
+                    <input type="text" name="fName" id="fName" required autofocus tabindex="1"
+                    placeholder="Your Firstname" />
                 </div>
                 <div>
                     <label for="lName">LastName</label>
-                    <input type="text" name="lName" id="lName" required  />
+                    <input type="text" name="lName" id="lName" required tabindex="2"
+                     placeholder="Your LastName" />
                 </div>
                 <div>
                     <label for="email">Your email</label>
-                    <input type="email" name="email" id="email" required  />
+                    <input type="email" name="email" id="email" required tabindex="3" 
+                    placeholder="Your email" />
                 </div>
                 <div>
                     <label for="message">Your message</label>
-                    <textarea name="message" id="message" required ></textarea> 
+                    <textarea name="message" id="message" required tabindex="4"placeholder="Write your message " ></textarea> 
                 </div>
             </div>
             <button type="submit"> Send</button>
@@ -51,6 +59,7 @@
 
         </form>
     </main>
+</section>
     <footer id="mainFooter">
         <p>&copy; Copyright Kheder Mariem
         </p>
