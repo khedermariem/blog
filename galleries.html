@@ -3,60 +3,77 @@
 
 <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="./normalize.css"/>
-    <link rel="stylesheet" href="./article.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./normalize.css" />
+    <link rel="stylesheet" href="./article.css" />
+    <script src="/js/jquery-3.4.1.min.js"></script>
     <title>The world of artificial intelligence</title>
-
- 
-
 </head>
 
 <body>
-     <header id="mainHeader">
+    <header id="mainHeader">
         <img src="/image/possessed-photography-zbLW0FG8XU8-unsplash.jpg" alt="logo" id="logoimg" />
         <h1>The world of artificial intelligence</h1>
         <nav id="mainNav">
             <h1 class="accessibility">main menu</h1>
-            <p class="accessibility"> <a href="#pageContent" title="to principal page"> Pass the menu</a></p>
+            <p class="accessibility">
+                <a href="#pageContent" title="to principal page"> Pass the menu</a>
+            </p>
             <ul>
-                <li><a href="/index.html" title="to the home page of the site 'The world of artificial intelligence'">Welcome</a></li>
-                <li><a href="/galleries.html" title="to the photo galleries of this site ">Galleries</a></li>
-                <li><a href="/contact.html" title="to the contact page of this site">Contact</a></li>
-                <li><a href="/about.html" title="Read more about this site and its owners, Mariem Kheder">A propos</a></li>
+                <li>
+                    <a href="/index.html"
+                        title="to the home page of the site 'The world of artificial intelligence'">Welcome</a>
+                </li>
+                <li>
+                    <a href="/galleries.html" title="to the photo galleries of this site ">Galleries</a>
+                </li>
+                <li>
+                    <a href="/contact.html" title="to the contact page of this site">Contact</a>
+                </li>
+                <li>
+                    <a href="/about.html" title="Read more about this site and its owners, Mariem Kheder">A propos</a>
+                </li>
                 <li><a href="/article.html" title="visit our blog">Blog</a></li>
             </ul>
         </nav>
-    
-
+        <button id="menuToggle"><img src="./image/menu.png" alt="menu"></button>
     </header>
-        <main id="pageContent "> 
+    <section id="pageContent " class="galleries">
+        <main>
             <h1>Top 5 project idea</h1>
             <ul>
                 <li>
                     <a href="/fristIdea.html">
-                    <h2>Driver Drowsiness Detection</h2>
-                    <img src="/image/img_g4.jpg" alt="imgCalleryOne">
-                    <p>The driver drowsiness detection is a project which can detect whether a person is sleeping or not. We can implement a model for drivers and it can also prevent accidents from happening.</p>
+                        <h2>Driver Drowsiness Detection</h2>
+                        <img src="/image/img_g4.jpg" alt="imgGalleryOne" />
+                        <p>
+                            The driver drowsiness detection is a project which can detect
+                            whether a person is sleeping or not. We can implement a model
+                            for drivers and it can also prevent accidents from happening.
+                        </p>
                     </a>
                 </li>
                 <li>
                     <a href="/secondIdea.html">
-
-                    <h2>Human Face Detection</h2>
-                    <img src="/image//imd_g2.jpg" alt="imgCalleryTwo">
-                    <p>The face detection took a major leap with deep learning techniques. We can build models with high accuracy in detecting the bounding boxes of the human face. This project will get you started with object detection and you will learn how to detect any object in an image.</p>
-                </a>
+                        <h2>Human Face Detection</h2>
+                        <img src="/image//imd_g2.jpg" alt="imgGalleryTwo" />
+                        <p>
+                            The face detection took a major leap with deep learning
+                            techniques. We can build models with high accuracy in detecting
+                            the bounding boxes of the human face. This project will get you
+                            started with object detection and you will learn how to detect
+                            any object in an image.
+                        </p>
+                    </a>
                 </li>
-
             </ul>
         </main>
-       
-    
-    <footer id="mainFooter">
-        <p>&copy; Copyright Kheder Mariem
-        </p>
-    </footer>
+    </section>
 
+    <footer id="mainFooter">
+        <p>&copy; Copyright Kheder Mariem</p>
+    </footer>
 </body>
 
 </html>

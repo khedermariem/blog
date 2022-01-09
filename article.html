@@ -3,8 +3,12 @@
 
 <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="./normalize.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+     <link rel="stylesheet" href="./normalize.css"/>
     <link rel="stylesheet" href="./article.css">
+    <script src="/js/jquery-3.4.1.min.js"></script>
+    <script src="/js/menu.js"></script>
 
     <title>le monde d'intelligence artificiellle</title>
 
@@ -20,19 +24,20 @@
             <p class="accessibility"> <a href="#pageContent" title="to principal page"> Pass the menu</a></p>
             <ul>
                   <li><a href="/index.html" title="to the home page of the site 'The world of artificial intelligence'">Welcome</a></li>
-                <li><a href="/galleries.html" title="to the photo galleries of this site ">Galleries</a></li>
-                <li><a href="/contact.html" title="to the contact page of this site">Contact</a></li>
+                               <li><a href="/contact.html" title="to the contact page of this site">Contact</a></li>
+
                 <li><a href="/about.html" title="Read more about this site and its owners, Mariem Kheder">A propos</a></li>
                 <li><a href="/article.html" title="visit our blog">Blog</a></li>
 
             </ul>
         </nav>
-        <button class="menuToggle"><img src="./image/menu.png" alt="menu"></button>
+        <button id="menuToggle"><img src="./image/menu.png" alt="menu"></button>
+        <button id="menuToggle"><img src="./image/menu.png" alt="menu"></button>
     </header>
-    <section id="pageContent" class="blogListe blog">
-        <main id="left_col" class="alignLeft">
+    <section id="pageContent"  class="blogList blog twoCols">
+        <main id="leftCol" >
             <article>
-                 <header id="mainHeader">
+                 <header >
                     <h1>Artificial intelligence: 193 countries adopt first AI ethics agreement (UNESCO)</h1>
                     <p> <strong> novembre 2021 |Développement durable (ODD)</strong> </p>
                 </header>
@@ -43,75 +48,12 @@
                     is involved in many of our daily habits. It also participates in the decision-making of governments
                     and the private sector.
 
-                    AI technologies are showing remarkable results in highly specialized areas such as cancer screening
-                    and creating inclusive environments for people with disabilities. It can also help tackle global
-                    problems such as climate change or world hunger and help reduce poverty by maximizing economic aid.
-
-                    But this technology also brings new challenges. There is an increase in gender and ethnic biases,
-                    threats to privacy, dignity and ability to act, dangers of mass surveillance and the increased use
-                    of unreliable AI technologies in law enforcement, to name a few examples. Until now, there has been
-                    no one-size-fits-all standard to address these issues.
-                    &nbsp;
-                    <h2> Content of the Recommendation</h2>
-                    According to UNESCO, the recommendation aims to realize the benefits that AI brings to society and
-                    to reduce the risks it entails.
-
-                    It ensures that digital transformations promote human rights and contribute to the achievement of
-                    the Sustainable Development Goals, by addressing issues related to transparency, accountability and
-                    privacy.
-
-                    It includes action-oriented policy chapters on data governance, education, culture, work, healthcare
-                    and economics.
-                    <h3>Data protection</h3>
-                    The Recommendation calls for going beyond what tech companies and governments are doing to ensure
-                    greater protection for individuals by ensuring transparency, capacity to act and control over their
-                    personal data. She argues that all individuals should be able to access and even erase their
-                    personal data records. It also provides for actions aimed at improving data protection and the
-                    knowledge that individuals have of their own data, as well as their right to control it. It also
-                    strengthens the capacity of regulators around the world to enforce these provisions.
-                    <h3>Ban on social rating and mass surveillance</h3>
-                    The Recommendation explicitly prohibits the use of AI systems for social scoring and mass
-                    surveillance. These technologies are highly invasive, they infringe human rights and fundamental
-                    freedoms, and they are used widely. The Recommendation stresses that, when developing regulatory
-                    frameworks, Member States should take into account that the ultimate responsibility and
-                    accountability always rests with humans and that AI technologies do not. should not themselves have
-                    legal personality.
-                    <h3>Support for monitoring and evaluation</h3>
-                    The Recommendation also lays the foundations for the tools which will contribute to its
-                    implementation. Ethical impact assessment aims to help countries and companies that develop and
-                    deploy AI systems to assess the impact of those systems on individuals, society and the environment.
-                    The Readiness Assessment Method helps Member States assess their readiness in terms of legal and
-                    technical infrastructure. This tool will help strengthen the institutional capacity of countries and
-                    recommend appropriate measures to be taken in order to ensure the practical implementation of
-                    ethics. In addition,
-                    <h3>Environmental Protection</h3>
-                    The Recommendation emphasizes that AI actors should favor AI methods that save data, energy and
-                    resources that will help make AI a major tool in the fight against climate change and the resolution
-                    of environmental problems. . The Recommendation calls on governments to assess the direct and
-                    indirect environmental impact throughout the lifecycle of the AI ​​system. This includes its carbon
-                    footprint, energy consumption, and the environmental impact of extracting raw materials to support
-                    the manufacturing of AI technologies. It also aims to reduce the environmental impact of AI systems
-                    and data infrastructures. It encourages governments to invest in green technologies,
-                    <h2>For fair, transparent and contestable decisions</h2>
-                    Decisions that impact millions of people must be fair, transparent and contestable, said UNESCO
-                    Assistant Director-General for Social and Human Sciences, Gabriela Ramos.
-
-                    “These new technologies must help us meet the major challenges of our current world, such as
-                    increasing inequalities and the environmental crisis, and not aggravate them. »Declared Ms Gabriela
-                    Ramos.
-
-                    UNESCO stresses that emerging technologies such as AI have proven their immense capacity to do good.
-                    However, the Organization calls for controlling its negative effects, which exacerbate existing
-                    divisions and inequalities at the global level.
-
-                    Advances in AI must respect the rule of law, avoiding harm and ensuring that where harm occurs,
-                    accountability and redress mechanisms are available to those affected, supports UNESCO.
                 </p>
                 <p><a href="/article1.html">Lire la suite </a> </p>
             </article>
 
             <article>
-                 <header id="mainHeader">
+                 <header >
                     <h1>Consciousness in humans, animals and artificial intelligence</h1>
                     <p> <strong> December 20, 2021 | Ruhr-University Bochum</strong>
 
@@ -127,34 +69,10 @@
                     consciousness as a state that is tied to complex cognitive operations -- and not as a passive basic
                     state that automatically prevails when we are awake.
 
-                    Professor Armin Zlomuzica from the Behavioral and Clinical Neuroscience research group at RUB and
-                    Professor Ekrem Dere, formerly at Université Paris-Sorbonne, now at RUB, describe their theory in
-                    the journal Behavioural Brain Research. The printed version will be published on 15 February 2022,
-                    the online article has been available since November 2021.
-
-                    "The hypotheses underlying our platform theory of consciousness can be tested in experimental
-                    studies," as the authors describe one advantage of their concept over alternative models. "Thus, the
-                    process of consciousness can be explored in humans and animals or even in the context of artificial
-                    intelligence."
-                    <h4><strong>The platform theory in detail</strong></h4>
-                    The complex cognitive operations that, according to platform theory, are associated with
-                    consciousness are applied to mental representations that are maintained and processed. They can
-                    include perceptions, emotions, sensations, memories, imaginations and associations. Conscious
-                    cognitive operations are necessary, for example, in situations where learned behaviour or habits are
-                    no longer sufficient for coping. People don't necessarily need consciousness to drive a car or take
-                    a shower. But when something unexpected happens, conscious cognitive actions are required to resolve
-                    the situation. They are also necessary to predict future events or problems and to develop suitable
-                    coping strategies. Most importantly, conscious cognitive operations are at the basis for adaptive
-                    and flexible behaviour that enables humans and animals to adapt to new environmental conditions.
-
-                    According to the new theory, conscious cognitive actions take place on the basis of a so-called
-                    online platform, a kind of central executive that controls subordinate platforms. The subordinate
-                    platforms can act, for example, as storage media for knowledge or activities.
-                </p>
                 <p><a href="/article2.html"> Lire La suite</a> </p>
             </article>
             <article>
-                 <header id="mainHeader">
+                 <header>
                     <h1>Commentary: The Ethical Use of AI in the Security, Defense Industry</h1>
                     <p> <strong> 12/21/2021 | By Wayne Phelps</strong>
 
@@ -166,27 +84,7 @@
                     <div id="art31"> Artificial intelligence already surrounds us. The odds are that when you type an
                         email or text, a grayed-out prediction appears ahead of what you have already typed.
                     </div>
-                    <div id="art32"> The “suggested for you” portion of some web-based shopping applications predict
-                        items you may be interested in buying based on your purchasing history. Streaming music
-                        applications create playlists based on listening histories.
-                    </div>
-                    <div id="art33">A device in your home can recognize a voice and answer questions, and your
-                        smartphone can unlock after recognizing your facial features.
-                        Artificial intelligence is also advancing rapidly within the security and defense industry. When
-                        AI converges with autonomy and robotics in a weapons system, we should ask ourselves, “From an
-                        ethical standpoint, where should we draw the line?”
-                    </div>
-                    <div id="art34">Air Force pilot Col. John Boyd developed a decision-making model referred to as the
-                        OODA loop — observe, orient, decide, act — to explain how to increase the tempo of decisions to
-                        outpace, outmaneuver and ultimately defeat an adversary. The objective is to make decisions
-                        faster than an opponent, compelling them to react to actions and enabling a force to seize the
-                        initiative. But what if the adversary is a machine?
-
-                    </div>
-                    <div id="art35">Humans can no longer outpace the processing power of a computer and haven’t been
-                        able to for quite a while. In other words, a machine’s OODA loop is faster. In some instances,
-                        it now makes sense to relegate certain decisions to a machine or let the machine recommend a
-                        decision to a human.</div>
+                   
 
                 </p>
                 <p><a href="/article3.html"> Lire la suite </a> </p>

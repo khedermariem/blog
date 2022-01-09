@@ -84,12 +84,12 @@ img {
     border: none;
 }
 #pageContent {
-    background: url(/images/backimage.jpg) center center / cover no-repeat fixed;
+    background: url(/image/backimage.jpg) center center / cover no-repeat fixed;
     padding: 100px 20px;
     min-height: 100vh;
 }
 #pageContent h1{
-    font-size: 1.8em;
+    font-size: 3em;
     color: var(--red);
     letter-spacing: .1em;
 }
@@ -112,10 +112,7 @@ img {
     font-size: 1.2em;
     margin: 10px 0;
 }
-#pageContent.home #pictInfo p{
-    margin: 10px 0;
-    font-size: .8em;
-}
+
 
 #pageContent.text h2{
     font-size: 1.5em;
@@ -129,9 +126,14 @@ img {
 }
 #pageContent.text .alignLeft {
     float: left;
+    
 }
 #pageContent.text .alignRight {
     float: right;
+}
+#pageContent.text p{
+    color: var(--black);
+    
 }
 #pageContent.galleries ul{
     list-style-type: none;
